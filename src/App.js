@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-// import './App.css';
 import About from './components/About';
 import Navbar from "./components/Navbar"
 import TextBox from "./components/TextBox"
@@ -43,7 +42,7 @@ function App() {
         <Alert alert={alert}/>
         <Routes >
             <Route exact path='/' element={<TextBox heading="Enter your text for analysis" mode={mode} showAlert={showAlert} />} />
-            <Route exact path='/about' element={<About />} />
+            <Route exact path='/about' element={<About mode={mode} />} />
         </Routes>
       </>
     </Router>
