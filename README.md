@@ -1,4 +1,4 @@
-*** You can try the site from here :-  https://dreamy-truffle-7b0c1b.netlify.app
+*** You can try the site from here :-  https://modex.netlify.app
 
 # Getting Started with Create React App
 
